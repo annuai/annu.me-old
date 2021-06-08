@@ -3,7 +3,7 @@ date: 2019-05-16
 year: 2019
 title: 3M Measuring Tape
 category: Identity
-thumbnail: "/uploads/mike-dorner-173502-unsplash.jpg"
+thumbnail: "/uploads/measure.png"
 categories:
 - design
 - render
