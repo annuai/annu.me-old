@@ -18,7 +18,7 @@ export default {
 <style>
 .hero {
     text-align: center;
-    width: 480px;
+    width: 520px;
     max-width: 100%;
     margin: 0 auto;
     padding: 4rem 0 8rem 0;
