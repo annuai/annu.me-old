@@ -1,8 +1,8 @@
 {
-  "footer": "Copyright &copy; 2021",
+  "footer": "Copyright &copy; 2021 Annuai",
   "dark_mode": false,
   "site_name": "Annuai",
   "site_description": "Industrial Designer",
-  "hero_title": "Building things - Giving life and purpose to inanimate objects",
-  "hero_subtitle": "Currently studying Industrial Design from National Institute of Design, Haryana - India."
+  "hero_title": "Building things. <div style='font-weight:300'>Giving life and purpose to inanimate objects</div>",
+  "hero_subtitle": "An <b>Industrial Design</b> student currently studying at the <br/><i>National Institute of Design, Haryana - India.</i>"
 }

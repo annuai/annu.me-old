@@ -52,6 +52,7 @@ export default {
   margin: 2rem 0 1rem 0;
 }
 .categories {
+  display:none;
   font-size: 0.8rem;
   color: var(--color-contrast-1);
 }

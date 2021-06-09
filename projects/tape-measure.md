@@ -1,12 +1,13 @@
 ---
 date: 2019-05-16
 year: 2019
-title: Banana
+title: Tape Measure
 category: Identity
 thumbnail: "/uploads/measure.png"
 categories:
-- photography
-- pink
+- design
+- render
+- project
 project_bg_color: ''
 project_fg_color: ''
 

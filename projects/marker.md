@@ -1,10 +1,11 @@
 ---
-thumbnail: "/uploads/cody-davis-253925-unsplash.jpg"
-title: Pineapple
-date: 2019-02-06
+thumbnail: "/uploads/marker.png"
+title: Touch Marker
+date: 2020-02-06
 categories:
-- photography
-- blue
+- design
+- render
+- project
 project_bg_color: "#EDEDED"
 project_fg_color: "#36B5EF"
 
