@@ -1,10 +1,10 @@
 ---
-thumbnail: "/uploads/markus-spiske-516263-unsplash.jpg"
-title: Porta400
+thumbnail: "/uploads/computer.png"
+title: Illustrations
 date: 2019-01-03
 categories:
-- photography
-- yellow
+- design
+- illustration
 project_bg_color: ''
 project_fg_color: ''
 

@@ -5,7 +5,7 @@ module.exports = {
   siteName: "Annuai",
   siteUrl: `https://annu.me`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s",
   siteDescription: "Industrial Designer",
   plugins: [
     {

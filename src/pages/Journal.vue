@@ -16,11 +16,11 @@
       class="journal-post"
     >
       <div class="container journal">
+        <img v-if="item.node.thumbnail!== null" v-bind:src="item.node.thumbnail.src" /> 
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
       </div>
     </g-link>
-      
   </Layout>
 </template>
 
@@ -33,6 +33,7 @@ query Journal {
         path
         title
         excerpt
+        thumbnail
       }
     }
   }

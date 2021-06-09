@@ -13,24 +13,63 @@
             <nav class="nav right">
                 <g-link class="nav__link" to="/journal">Journal</g-link>
                 <g-link class="nav__link" to="/resume">Resume</g-link>
-                <g-link class="nav__link" to="/contact">Contact</g-link>
+                <g-link class="nav__link" to="/contact">Connect</g-link>
+                
             </nav>
+
         </div>
+        <!-- <div @click="toggle" class="togglebutton">Connect</div>
+                    <vue-slide-up-down :active="active">
+                        <div class="element">
+                            LinkedIn
+                        </div>
+                        <div class="element">
+                            LinkedIn
+                        </div>
+                        <div class="element">
+                            LinkedIn
+                        </div>
+                    </vue-slide-up-down> -->
+
     </header>
 </template>
 
 <script>
+import Vue from 'vue';
+import VueSlideUpDown from 'vue-slide-up-down';
+Vue.component('vue-slide-up-down', VueSlideUpDown)
+
 export default {
   data() {
     return {
         logo: require("../../static/logo.svg"),
-        settings: require("../../data/theme.json")
+        settings: require("../../data/theme.json"),
+        active: false
     }
+  },
+  methods: {
+      toggle : function(e) {
+          console.log(this.active)
+          return this.active = !this.active
+          console.log(this.active)
+        }
   }
 }
+
 </script>
 
 <style scoped>
+.togglebutton{
+    /*float: left;*/
+    padding : 1em;
+    cursor:pointer;
+}
+.element {
+    /*float: left;*/
+  padding : 1em;
+  /*background-color:#B3E5FC;*/
+}
+
 .header {
     position: relative;
     height: 6rem;

@@ -1,8 +1,9 @@
 ---
 date: 2019-05-17
-title: About Typography
+title: 'Universal Control: An analysis of its history'
 author: Annuai
 excerpt: Font face, vertical rythm, readability, this long fake text should flow.
+thumbnail: ""
 
 ---
 
